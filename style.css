@@ -1,0 +1,117 @@
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid white;
+}
+h1{
+    margin-left: 30px;
+    padding: 0px;
+    background-color: red;
+
+}
+a:link{
+  background-color: red;
+}
+a:visited{
+    background-color: red;
+  }
+
+.paragraph{
+    text-align: center;
+    font-size: 30px;
+}
+.grid{
+    display:flex;
+    flex-direction:wrap;
+    justify-content: space-between;
+    overflow-x: auto;
+    
+}
+
+.grid img{
+    border: 5px solid yellow;
+}
+
+.certificate{
+    display:flex;
+    flex-direction:wrap;
+    justify-content: space-between;
+    
+}
+.certificate img{
+    border: 5px solid yellow;
+}
+.image{
+    position: relative;
+}
+
+.image p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.image:hover p{
+    opacity: 1;
+}
+
+.image:hover img{
+    opacity: 0.33;
+} 
+
+.second{
+    display:flex;
+    flex-direction:wrap;
+    justify-content: space-evenly;
+}
+.third{
+    display:flex;
+    flex-direction:wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p{
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: #000000;
+}
+
+.myImg img{
+    position: relative;
+    margin-left: 30px;
+    top: 170px;
+}
+.myback{
+    margin-top: -170px;
+}
+.info h2{
+    position: relative;
+    color: white;
+    font-size: 70px;
+    top:-300px;
+    left: 400px; 
+}
+.school h2{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    top:-300px;
+    left: 400px;
+}
+
+.moto h2{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 400px;
+    top:-270px;
+
+}
